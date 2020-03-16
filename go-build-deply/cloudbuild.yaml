@@ -4,7 +4,7 @@ steps:
   args:
     - build
     - -f
-    - ./Dockerfile
+    - ./go-build-deply/Dockerfile
     - -t
     - gcr.io/$PROJECT_ID/my-helloworld
     - .
