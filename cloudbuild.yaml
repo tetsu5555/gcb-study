@@ -9,7 +9,7 @@ steps:
     - gcr.io/$PROJECT_ID/my-helloworld
     - .
   dir: '.'
-# Push the container image to Container Registry
+# Push the container image to Container Registry!
 - name: 'gcr.io/cloud-builders/docker'
   args: ['push', 'gcr.io/$PROJECT_ID/my-helloworld']
 # Deploy container image to Cloud Run
